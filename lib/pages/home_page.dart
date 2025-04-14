@@ -127,6 +127,11 @@ class HomePage extends StatelessWidget {
                 ),
 
                 // Email
+                TextField(
+                  decoration: InputDecoration(
+
+                  ),
+                ),
 
                 // Password
 
