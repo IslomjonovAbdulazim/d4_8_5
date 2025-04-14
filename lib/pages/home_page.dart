@@ -86,13 +86,13 @@ class HomePage extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             SvgPicture.asset(
-                              "assets/facebook.svg",
+                              "assets/google.svg",
                               height: 28,
                               width: 28,
                             ),
                             SizedBox(width: 10),
                             Text(
-                              "Facebook",
+                              "Google",
                               style: TextStyle(
                                 color: Color(0xff61677D),
                                 fontWeight: FontWeight.w800,
@@ -100,6 +100,27 @@ class HomePage extends StatelessWidget {
                             ),
                           ],
                         ),
+                      ),
+                    ),
+                  ],
+                ),
+
+                SizedBox(height: 10),
+                Row(
+                  children: [
+                    Expanded(
+                      child: Divider(
+                        color: Color(0xffE0E5EC),
+                        thickness: 1,
+                      ),
+                    ),
+                    SizedBox(width: 10),
+                    Text("Or"),
+                    SizedBox(width: 10),
+                    Expanded(
+                      child: Divider(
+                        color: Color(0xffE0E5EC),
+                        thickness: 1,
                       ),
                     ),
                   ],
